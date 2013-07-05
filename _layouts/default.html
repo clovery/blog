@@ -3,11 +3,22 @@
 <head>
 <meta charset="utf-8">
 <title>{{ page.title }}</title>
-<link href="style/style.css" rel="stylesheet">
+<link rel="stylesheet" href="/style/style.css" media="screen, projection" />
+<link rel="stylesheet" href="/style/syntax.css" />
 </head>
 <body>
-<div class="layout">
-{{ content }}
+<div class="site">
+  <div class="title">
+    <a href="/">航海日誌</a>
+  </div>
+  {{ content }}
+  <div class="footer">
+    <div class="contact">
+    </div>
+    <div class="contact">
+    </div>
+  </div>
 </div>
+
 </body>
 </html>
