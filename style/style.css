@@ -12,9 +12,6 @@ body{
     line-height:1.7em;
     color:#666;
     -webkit-text-size-adjust:none;
-    width:450px;/*730*/
-    margin:0 auto;
-    padding-top: 60px;
 }
 
 .clear {clear:both;width:0;height:0}
