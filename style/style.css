@@ -19,7 +19,12 @@ body{
 
 .clear {clear:both;width:0;height:0}
 
+.layout {
+  width: 960px;
+  margin: 0 auto;
+}
 
+/*
 .entry{
     margin-bottom: 130px;
     border-radius: 5px;
@@ -138,3 +143,4 @@ body{
 .powered_by a:hover{
     color:#E60900;
 }
+*/
