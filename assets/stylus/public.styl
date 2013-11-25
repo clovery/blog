@@ -97,13 +97,13 @@ input, select
  * Base
  */
 body
-  font: 13.34px/1.6 helvetica, arial, clean, sans-serif
-  background-color: white
-  *font-size: small
-
-
+  font: 13.34px/1.6 Alef, helvetica, arial, sans-serif
+  background-color: #D8D8D8
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #D8D8D8)
+  background-repeat: no-repeat
 a
   color: #00a
+  text-decoration: none
   &:hover 
     color: black
   &:visited 
@@ -117,42 +117,46 @@ a
   margin: 0 auto
 
 .site-title 
-  color: #a00
   margin-bottom: 2em
   font-weight: bold
-  margin: 20px 0 30px
+  margin: 30px 0 40px
+
   a
     color: #a00
-    font-size: 24px
+    font-size: 200%
     text-decoration: none
+    letter-spacing: -2px
 
     &:hover
-      color: black
+      color: #740000
 
-    &.extra 
-      color: #aaa
-      text-decoration: none
-      margin-left: 1em
-
-      &.extra:hover 
-        color: black
+.title
+  color: #a00
 
 .list > .title
-  color: #a00
   font-variant: small-caps
   font-size: 150%;
   font-weight: normal
-  font-family: tahoma
 
 .list
   .item
-    line-height: 2
+    line-height: 1.8
+    .title
+      font-family: '\u9ED1\u4F53'
+
+  .delimiter
+    margin: 0 4px
+    color: #AF0404
 
   .item > .time
-    font-family: arial
+    font-family: fantasy, arial
     color: #963E96
+    font-size: small
 
 .post-list
   .item
     font-size: 110%
 
+.detail.page
+  .title
+    font-size: 150%

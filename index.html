@@ -1,18 +1,16 @@
 ---
 layout: default
-title: 旅行日誌
+name  : 'home'
 ---
-<div id="home">
-  <section class="list post-list">
-    <h2 class="title">The Posts</h2>
-    <ul class="posts">
-      {% for post in site.posts %}
-        <li class="item">
-          <span class="time">{{ post.date | date_to_string }}</span> 
-          &raquo; 
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
-</div>
+<section class="list post-list">
+  <h2 class="title">Article List</h2>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li class="item">
+        <a class="title" title="{{post.title}}" href="{{ post.url }}">{{ post.title }}</a>
+        <b class="delimiter">&raquo;</b>
+        <span class="time">{{ post.date | date_to_string }}</span> 
+      </li>
+    {% endfor %}
+  </ul>
+</section>

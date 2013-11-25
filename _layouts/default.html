@@ -1,19 +1,21 @@
+---
+title : 旅行日誌 
+---
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>{{ page.title }}</title>
-<link rel="stylesheet" href="/style/public.css" />
-<link rel="stylesheet" href="/style/syntax.css" />
+<title>{{page.title}}</title>
+<link rel="stylesheet" href="/style/public.css">
+<link rel="stylesheet" href="/style/syntax.css">
+<link href="http://fonts.googleapis.com/css?family=Alef" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body class="{{page.name}}">
 <div class="layout">
   <header class="site-title">
-      <a href="/">旅行日誌</a>
+    <a href="/">{{page.title}}</a>
   </header>
   {{ content }}
-  <footer>
-  </footer>
 </div>
 </body>
 </html>
