@@ -22,6 +22,7 @@ a:visited{color:#a0a}
 .site-title a:hover{color:#000}
 .site-title a.extra{color:#aaa;text-decoration:none;margin-left:1em;}
 .site-title a.extra.extra:hover{color:#000}
-.list > .title{color:#a00;font-variant:small-caps;font-size:110%;font-weight:normal}
-.list .item{line-height:1.8}
-.list .item > .time{font-family:arial}
+.list > .title{color:#a00;font-variant:small-caps;font-size:150%;font-weight:normal;font-family:tahoma}
+.list .item{line-height:2}
+.list .item > .time{font-family:arial;color:#963e96}
+.post-list .item{font-size:110%}
