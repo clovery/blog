@@ -1,4 +1,7 @@
 .DS_Store
 *.swp
 _site/
+assets/
 node_modules/
+package.json
+Gruntfile.js

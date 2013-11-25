@@ -1,20 +1,19 @@
----
-title : 旅行日誌 
----
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>{{page.title}}</title>
-<link rel="stylesheet" href="/style/public.css">
-<link rel="stylesheet" href="/style/syntax.css">
+  <meta charset="utf-8">
+  <title>{{site.title}}{% if page.title %} &raquo; {{ page.title }}{% endif %}</title>
+  <link rel="stylesheet" href="/style/public.css">
+  <link rel="stylesheet" href="/style/syntax.css">
 </head>
-<body class="{{page.name}}">
-<div class="layout">
-  <header class="site-title">
-    <a href="/">{{page.title}}</a>
+<body class="{{ page.name }}">
+  <header>
+    <div class="layout site-title">
+      <a href="/">{{ site.title }}</a>
+    </div>
   </header>
-  {{ content }}
-</div>
+  <section class="layout">
+    {{ content }}
+  </section>
 </body>
 </html>
