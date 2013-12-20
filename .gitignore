@@ -3,3 +3,6 @@
 *~
 _site/
 node_modules/
+Gruntfile.js
+assets/
+_posts/draft/
