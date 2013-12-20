@@ -20,14 +20,15 @@ title: 使用node.js开发博客的一些思考
 ## 用户注册
 
 数据结构
-
-    'login'
-    , 'password'
-    , 'role'
-    , 'email'
-    , 'nickname'
-    , 'status'
-    , 'created'
+{% highlight javascript %}
+['login'
+, 'password'
+, 'role'
+, 'email'
+, 'nickname'
+, 'status'
+, 'created']
+{% endhighlight %}
     
 用户名和邮箱需要验证唯一性
 
@@ -39,3 +40,6 @@ title: 使用node.js开发博客的一些思考
 采用方案2，用户名和邮箱组合，如果用户忘记先前注册，也起到提示作用，同时也避免无意义的申请。
 
 抵制恶意注册，加入验证码功能。
+
+
+## to be continued...
