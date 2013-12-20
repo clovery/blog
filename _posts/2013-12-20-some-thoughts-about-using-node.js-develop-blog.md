@@ -1,7 +1,14 @@
 ---
 layout: post
-title: 使用node.js开发博客的一些思考
+title: 使用Node.js开发博客的一些思考
 ---
+
+## Node.js模块选择
+
+* [express](https://github.com/visionmedia/express)
+* [mongodb](https://github.com/mongodb/node-mongodb-native)
+
+Express处理前端请求，配合MongoDB数据库，足以满足项目的需求。
 
 ## 基本功能
 

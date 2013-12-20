@@ -144,14 +144,19 @@ input,
 select {
   vertical-align: middle;
 }
+@font-face {
+  font-family: 'Belleza';
+  font-style: normal;
+  font-weight: 400;
+  src: url("font/kccRZmnnm8BZQBlMJUI5mwLUuEpTyoUstqEm5AMlJo4.woff") format('woff');
+}
 body {
-  font: 13.34px/1.6 '\u9ED1\u4F53', tahoma, helvetica, arial, sans-serif;
-  background-color: #f3f2ee;
-  font: 14px monaco, helvetica, arial, freesans, clean, sans-serif;
-  color: #000;
-  line-height: 1.4em;
+  font: 13px/1.6 'Belleza', '\u9ED1\u4F53', tahoma, helvetica, arial, sans-serif;
   padding: 0.7em;
+  color: #000;
+  background-color: #f3f2ee;
   text-shadow: 1px 0 0 #fff;
+  line-height: 1.4em;
 }
 a {
   color: #a0a;
@@ -160,18 +165,12 @@ a {
 .title {
   color: #a00;
 }
-/**
- * layout
- **/
 .layout {
   width: 660px;
   margin: 0 auto;
 }
 footer {
   padding: 40px 0 30px;
-}
-body > header {
-  margin: 0 auto;
 }
 section .sec {
   margin-top: 20px;
@@ -181,14 +180,15 @@ header + section.layout {
 }
 .site-title {
   font-weight: bold;
-  padding: 30px 0 20px;
+  padding: 20px 0 10px;
   border-bottom: 1px dotted #d0d0d0;
 }
 .site-title a {
   color: #a00;
-  font-size: 200%;
+  font-size: 150%;
   text-decoration: none;
   letter-spacing: -2px;
+  font-family: '\u9ED1\u4F53';
 }
 .site-title a:hover {
   color: #740000;
@@ -200,59 +200,30 @@ header + section.layout {
   margin-bottom: 10px;
 }
 .list .item {
-  line-height: 1.8;
-}
-.list .item .title {
+  line-height: 2;
   font-size: 110%;
+}
+.list .item > .time {
+  font-family: 'Belleza', '\u9ED1\u4F53', tahoma, arial;
+  color: #970000;
+  font-size: 90%;
 }
 .list .delimiter {
   margin: 0 4px;
   color: #af0404;
 }
-.list .item > .time {
-  font-family: fantasy, arial;
-  color: #963e96;
-  font-size: small;
+article header > .title {
+  font-size: 140%;
 }
-.post-list .item {
-  font-size: 110%;
-}
-.detail.page .title {
-  font-size: 150%;
-}
-/**
- * article
- */
-article header {
-  padding: 10px 0;
-  margin-bottom: 10px;
-}
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width &:480px) {
   .layout {
     width: auto;
     padding: 0 1em;
-  }
-  .site-title {
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
 }
 p {
   margin: 1em 0;
   line-height: 1.5em;
-}
-table {
-  font-size: inherit;
-  font: 100%;
-  margin: 1em;
-}
-table th {
-  border-bottom: 1px solid #bbb;
-  padding: 0.2em 1em;
-}
-table td {
-  border-bottom: 1px solid #ddd;
-  padding: 0.2em 1em;
 }
 input[type=text],
 input[type=password],
@@ -305,13 +276,6 @@ img {
 abbr {
   border-bottom: none;
 }
-a {
-  color: #4183c4;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
 a code,
 a:link code,
 a:visited code {
@@ -341,9 +305,9 @@ h1:first-child {
   padding-top: 0.25em;
   border-top: none;
 }
-h2 {
+.entry h2 {
   margin-top: 40px;
-  font-size: 18px;
+  font-size: 120%;
   border-bottom: 2px solid #e0e0e0;
   padding-bottom: 0.5em;
 }
@@ -352,9 +316,6 @@ h2 {
 }
 h3 {
   margin-top: 1em;
-}
-hr {
-  border: 1px solid #ddd;
 }
 ul {
   margin: 1em 0 1em 2em;
