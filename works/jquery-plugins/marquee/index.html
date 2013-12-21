@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>marquee</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: tohoma;
+}
+li {
+  color: #166eab;
+  font-size: 12px;
+  height: 28px;
+  line-height: 28px;
+}
+.horizontal {
+  width: 640px;
+  height: 28px;
+  overflow: hidden;
+  line-height: 28px;
+
+  background: #dcdcdc;
+  margin: 100px auto;
+}
+.horizontal li {
+  display: block;
+  width: 160px;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+}
+.vertical {
+  width: 640px;
+  margin: 0 auto;
+  height: 112px;
+  overflow: hidden;
+  
+  text-align: center;
+  background: #dcdcdc;
+}
+</style>
+</head>
+<body>
+  <div class="horizontal" data-marquee>
+    <ul data-m-box>
+      <li>1、Keep It Simple, Stupid</li>
+      <li>2、Node.js</li>
+      <li>3、Dont Repeat Yourself</li>
+      <li>4、Nothing is impossible</li>
+      <li>5、JavaScript awesome</li>
+    </ul>     
+  </div>
+  <div class="vertical" data-marquee>
+    <ul data-m-box>
+      <li>金色网吧已申请赛</li>
+      <li>聚点网吧已申请赛点</li>
+      <li>E酷网吧已申请赛点</li>
+      <li>帝王星网吧已申请赛点</li>
+      <li>四海漫游网吧已申请赛点</li>
+      <li>鸿远网吧已申请赛点</li>
+      <li>京天通网吧已申请赛点</li>
+      <li>四杰网吧已申请赛点</li>
+      <li>天上天网吧已申请赛点</li>
+    </ul>     
+  </div>
+  <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+  <script src="https://raw.github.com/clovery/marquee/master/marquee.js.js"></script>
+</body>
+</html>
