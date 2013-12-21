@@ -215,12 +215,6 @@ header + section.layout {
 article header > .title {
   font-size: 140%;
 }
-@media only screen and (max-device-width &:480px) {
-  .layout {
-    width: auto;
-    padding: 0 1em;
-  }
-}
 p {
   margin: 1em 0;
   line-height: 1.5em;
@@ -340,6 +334,19 @@ blockquote {
   border-left: 5px solid #ddd;
   padding-left: 0.6em;
   color: #555;
+}
+@media only screen and (max-device-width: 480px) {
+  header {
+    padding-top: 10px;
+  }
+  header a {
+    display: block;
+    padding-bottom: 10px;
+  }
+  .layout {
+    width: auto;
+    padding: 0 0.5em;
+  }
 }
 .highlight {
   background: #fff;
