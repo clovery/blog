@@ -335,7 +335,7 @@ blockquote {
   padding-left: 0.6em;
   color: #555;
 }
-@media only screen and (max-device-width: 320px) {
+@media screen and (device-width: 320px) {
   header {
     padding-top: 10px;
   }
@@ -348,14 +348,9 @@ blockquote {
     padding: 0 0.5em;
   }
 }
-@media only screen and (max-device-width: 320px) and (orientation:landscape) {
+@media screen and (device-width: 320px) and (orientation:landscape) {
   body {
     font-size: 40%;
-  }
-}
-@media only screen and (min-device-width: 600px) {
-  .layout {
-    font-size: 120%;
   }
 }
 .highlight {
