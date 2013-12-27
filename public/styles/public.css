@@ -144,11 +144,6 @@ input,
 select {
   vertical-align: middle;
 }
-dl,
-ul,
-ol {
-  list-style: none;
-}
 @font-face {
   font-family: 'Belleza';
   font-style: normal;
@@ -353,6 +348,11 @@ blockquote {
   body {
     font-size: 40%;
   }
+}
+.archive dl,
+.archive ul,
+.archive ol {
+  list-style: none;
 }
 .archive .sec > .title {
   font-size: 140%;
