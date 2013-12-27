@@ -49,6 +49,6 @@ jade 代码只是一种中间形式，不会提供给后端程序，他们肯定
 
 ## 参考资源
 
-* [jade-lang.com](jade-lang.com)
-* [对 Jade 的一些看法](http://willerce.com/post/the-views-of-jade)
-* [如何选择 EJS 和 Jade？](http://www.zhihu.com/question/20355486)
+1. [jade-lang.com](jade-lang.com)
+2. [对 Jade 的一些看法](http://willerce.com/post/the-views-of-jade)
+3. [如何选择 EJS 和 Jade？](http://www.zhihu.com/question/20355486)
