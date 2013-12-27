@@ -1,6 +1,6 @@
 ---
-layout: post
-title: JS检测浏览器是否支持原生的date控件
+layout  : post
+title   : JS检测浏览器是否支持原生的date控件
 ---
 
 代码借鉴自modernizr.com，因项目中只用到date控件，故抽离自此。

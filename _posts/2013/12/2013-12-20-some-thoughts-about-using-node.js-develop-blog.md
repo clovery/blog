@@ -1,6 +1,6 @@
 ---
-layout: post
-title: 使用Node.js开发博客的一些思考
+layout  : post
+title   : 使用Node.js开发博客的一些思考
 ---
 
 ## Node.js模块选择

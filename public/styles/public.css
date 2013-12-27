@@ -185,7 +185,7 @@ header + section.layout {
 }
 .site-title a {
   color: #a00;
-  font-size: 150%;
+  font-size: 170%;
   text-decoration: none;
   letter-spacing: -2px;
   font-family: '\u9ED1\u4F53';
@@ -213,11 +213,7 @@ header + section.layout {
   color: #af0404;
 }
 article header > .title {
-  font-size: 140%;
-}
-p {
-  margin: 1em 0;
-  line-height: 1.5em;
+  font-size: 150%;
 }
 input[type=text],
 input[type=password],
@@ -275,10 +271,6 @@ a:link code,
 a:visited code {
   color: #4183c4;
 }
-h2,
-h3 {
-  margin: 1em 0;
-}
 h1,
 h2,
 h3,
@@ -292,7 +284,7 @@ h1 {
   border-top: 4px solid #aaa;
   padding-top: 0.5em;
   margin-top: 1.5em;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
 }
 h1:first-child {
   margin-top: 0;
@@ -301,15 +293,23 @@ h1:first-child {
 }
 .entry h2 {
   margin-top: 40px;
-  font-size: 120%;
+  font-size: 144%;
   border-bottom: 2px solid #e0e0e0;
   padding-bottom: 0.5em;
 }
 .entry h2:nth-child(1) {
   margin-top: 10px;
 }
-h3 {
+.entry h2 + h3 {
+  margin-top: 0.5em;
+}
+.entry h3 {
+  font-size: 124%;
   margin-top: 1em;
+}
+.entry p {
+  margin: 1em 0;
+  line-height: 1.5em;
 }
 ul {
   margin: 1em 0 1em 2em;
