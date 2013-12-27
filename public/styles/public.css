@@ -144,6 +144,11 @@ input,
 select {
   vertical-align: middle;
 }
+dl,
+ul,
+ol {
+  list-style: none;
+}
 @font-face {
   font-family: 'Belleza';
   font-style: normal;
@@ -311,21 +316,18 @@ h1:first-child {
   margin: 1em 0;
   line-height: 1.5em;
 }
-ul {
+.entry ol {
   margin: 1em 0 1em 2em;
 }
-ol {
-  margin: 1em 0 1em 2em;
-}
-ul li,
-ol li {
+.entry ul li,
+.entry ol li {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-ul ul,
-ul ol,
-ol ol,
-ol ul {
+.entry ul ul,
+.entry ul ol,
+.entry ol ol,
+.entry ol ul {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -352,6 +354,10 @@ blockquote {
   body {
     font-size: 40%;
   }
+}
+.archive .sec > .title {
+  font-size: 140%;
+  margin-bottom: 10px;
 }
 .highlight {
   background: #fff;

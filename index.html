@@ -2,13 +2,12 @@
 layout  : default
 name    : 'home'
 ---
-<dl class="sec list post-list">
-  {% for post in site.posts %}
-    <dd class="item">
-      <a class="title" title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a>
-      <b class="delimiter">&raquo;</b>
-      <span class="time">{{ post.date | date: "%-d %b %Y"}}</span> 
-    </dd>
-  {% endfor %}
-  </dl>
-</section>
+<ol class="sec list post-list">
+{% for post in site.posts %}
+  <li class="item">
+    <a class="title" title="{{ post.title }}" href="{{ post.url }}">{{ post.title }}</a>
+    <b class="delimiter">&raquo;</b>
+    <span class="time">{{ post.date | date: "%-d %b %Y"}}</span> 
+  </li>
+{% endfor %}
+</ol>
