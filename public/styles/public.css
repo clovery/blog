@@ -144,6 +144,14 @@ input,
 select {
   vertical-align: middle;
 }
+body.home ul,
+body.archive ul,
+body.home ol,
+body.archive ol,
+body.home dl,
+body.archive dl {
+  list-style: none;
+}
 @font-face {
   font-family: 'Belleza';
   font-style: normal;
@@ -310,21 +318,6 @@ h1:first-child {
   margin: 1em 0;
   line-height: 1.5em;
 }
-.entry ol {
-  margin: 1em 0 1em 2em;
-}
-.entry ul li,
-.entry ol li {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-.entry ul ul,
-.entry ul ol,
-.entry ol ol,
-.entry ol ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
 blockquote {
   margin: 1em 0;
   border-left: 5px solid #ddd;
@@ -349,14 +342,25 @@ blockquote {
     font-size: 40%;
   }
 }
-.archive dl,
-.archive ul,
-.archive ol {
-  list-style: none;
-}
-.archive .sec > .title {
+body.archive .sec > .title {
   font-size: 140%;
   margin-bottom: 10px;
+}
+.entry ul,
+.entry ol {
+  margin: 1em 0 1em 2em;
+}
+.entry ul li,
+.entry ol li {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+.entry ul ul,
+.entry ul ol,
+.entry ol ol,
+.entry ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .highlight {
   background: #fff;
