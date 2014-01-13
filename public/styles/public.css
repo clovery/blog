@@ -317,6 +317,7 @@ h1:first-child {
 .entry p {
   margin: 1em 0;
   line-height: 1.5em;
+  text-align: justify;
 }
 blockquote {
   margin: 1em 0;
