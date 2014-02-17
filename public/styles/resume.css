@@ -58,44 +58,51 @@ section .title {
   font-style: normal;
 }
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000339}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000337}}
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000340}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000338}}
+.position em {
+  font-style: normal;
+}
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000341}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000342}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000343}}
 .experience .bd li {
   margin-bottom: 12px;
 }
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000343}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000345}}
 .experience .time {
   font-size: 14px;
 }
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000345}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000347}}
 .experience .time:before {
   content: '»';
   margin-right: 4px;
   color: #910303;
 }
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000349}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000351}}
 .experience .company {
   margin: 4px 0;
 }
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000351}}
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000353}}
 .experience p {
   margin-bottom: 4px;
 }
 
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000355}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000356}}
-
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000357}}
 
 @media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000358}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000359}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/resume\.styl}line{font-family:\0000360}}
 .ability dl dd:before {
   content: '»';
   margin-right: 4px;
