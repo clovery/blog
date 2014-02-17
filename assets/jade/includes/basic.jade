@@ -4,14 +4,37 @@ mixin item(options)
     span.delimiter :
     em !{options.value}
       
-- var items=[{name:"姓名",value:"魏兴飞"},{name:"性别",value:"男"},{name:"所在地",value:"浙江杭州"},{name:"出生日期",value:"1988-10-16"}, { name:"邮箱", value:"clovery.org@gmail.com"} ];
-
 ul
-  each item in items
-    li
-      span.label #{item.name}
-      span.delimiter :
-      em !{item.value}
+  +item({
+    name:"姓名", 
+    value:"魏兴飞"
+  })
+
+  +item({
+    name:"性别",
+    value:"男"
+  })
+
+  +item({
+    name: '学历',
+    value: '专科'
+  })
+
+  +item({
+    name:"所在地",
+    value:"浙江杭州"
+  })
+
+  +item({
+    name:"出生日期", 
+    value:"1988-10-16"
+  })
+
+  +item({ 
+    name:"邮箱", 
+    value:"clovery.org@gmail.com"
+  })
+
   +item({
     name: '博客',
     value: "<a href='http://clovery.org' target='_blank'>http://clovery.org/</a>"

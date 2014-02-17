@@ -48,7 +48,7 @@ gulp.task('stylus:build', function() {
 
 // watch task
 gulp.task('watch', function () {
-  server.listen(35729, function (err) {
+  server.listen(35730, function (err) {
     if (err) return console.log(err)
   })
 
