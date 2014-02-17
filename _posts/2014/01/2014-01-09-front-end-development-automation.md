@@ -23,6 +23,9 @@ title: 前端开发流程自动化
 
 使用 yeoman 和 grunt , 基本原理和使用方式请 Google 之，网上有大量来讲解这些工具的入门文章。
 
+* 使用 yeoman ，可能需要编写自己的 Generator
+* Grunt 有各种插件，满足各种的任务需要(压缩代码、图片，刷新浏览器等)
+
 
 ## Resource
 
