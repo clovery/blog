@@ -1,6 +1,6 @@
 ---
 layout  : post
-title   : 学习VI编辑器
+title   : 学习 VI 编辑器
 ---
 
 vim 常用的有两种模式：Normal 和 Insert ，打开文件，默认进入的是 Normal 模式
