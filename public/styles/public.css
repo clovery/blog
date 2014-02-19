@@ -1,828 +1,117 @@
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/node_modules\/gulp-stylus\/node_modules\/stylus\/lib\/functions\/index\.styl}line{font-family:\000031}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\00003264}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000315}}
-html,
-body,
-div,
-span,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-abbr,
-address,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-samp,
-small,
-strong,
-sub,
-sup,
-var,
-b,
-i,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  background: transparent;
-  border: 0;
-  font-size: 100%;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-  vertical-align: baseline;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000324}}
-body {
-  line-height: 1;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000327}}
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000330}}
-blockquote,
-q {
-  quotes: none;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000333}}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000337}}
-a {
-  background: transparent;
-  font-size: 100%;
-  margin: 0;
-  padding: 0;
-  vertical-align: baseline;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000345}}
-ins {
-  background-color: #ff9;
-  color: #000;
-  text-decoration: none;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000351}}
-mark {
-  background-color: #ff9;
-  color: #000;
-  font-style: italic;
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000357}}
-del {
-  text-decoration: line-through;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000360}}
-abbr[title],
-dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000364}}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000369}}
-hr {
-  border: 0;
-  border-top: 1px solid #ccc;
-  display: block;
-  height: 1px;
-  margin: 1em 0;
-  padding: 0;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000377}}
-input,
-select {
-  vertical-align: middle;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000380}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000381}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/reset\.styl}line{font-family:\0000382}}
-body.home ul,
-body.archive ul,
-body.home ol,
-body.archive ol,
-body.home dl,
-body.archive dl {
-  list-style: none;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000384}}
-@font-face {
-  font-family: 'Belleza';
-  font-style: normal;
-  font-weight: 400;
-  src: url("font/kccRZmnnm8BZQBlMJUI5mwLUuEpTyoUstqEm5AMlJo4.woff") format('woff');
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000310}}
-body {
-  font: 13px/1.6 'Belleza', '\u9ED1\u4F53', tahoma, helvetica, arial, sans-serif;
-  padding: 0.7em;
-  color: #000;
-  background-color: #f3f2ee;
-  text-shadow: 1px 0 0 #fff;
-  line-height: 1.4em;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000318}}
-a {
-  color: #a0a;
-  text-decoration: none;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000322}}
-.title {
-  color: #a00;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000325}}
-.layout {
-  width: 680px;
-  margin: 0 auto;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000329}}
-footer {
-  padding: 40px 0 30px;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000332}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000333}}
-section .sec {
-  margin-top: 20px;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000336}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000337}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000338}}
-header + section.layout {
-  margin-top: 20px;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000341}}
-.site-title {
-  font-weight: bold;
-  padding: 20px 0 10px;
-  border-bottom: 1px dotted #d0d0d0;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000345}}
-.site-title a {
-  color: #a00;
-  font-size: 170%;
-  text-decoration: none;
-  letter-spacing: -2px;
-  font-family: '\u9ED1\u4F53';
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000351}}
-.site-title a:hover {
-  color: #740000;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000354}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000355}}
-.list > .title {
-  font-variant: small-caps;
-  font-size: 150%;
-  font-weight: normal;
-  margin-bottom: 10px;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000360}}
-.list .item {
-  line-height: 2;
-  font-size: 114%;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000363}}
-.list .item > .time {
-  font-family: 'Belleza', '\u9ED1\u4F53', tahoma, arial;
-  color: #970000;
-  font-size: 90%;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000368}}
-.list .delimiter {
-  margin: 0 4px;
-  color: #af0404;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000372}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000373}}
-article header > .title {
-  font-size: 130%;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000376}}
-input[type=text],
-input[type=password],
-input[type=image],
-textarea {
-  font: 99% helvetica, arial, freesans, sans-serif;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000379}}
-select,
-option {
-  padding: 0 0.25em;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000382}}
-optgroup {
-  margin-top: 0.5em;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000385}}
-pre,
-code {
-  font-family: consolas, Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\0000388}}
-pre {
-  margin: 1em 0;
-  font-size: 14px;
-  background-color: #eee;
-  border: 1px solid #ddd;
-  padding: 5px 5px 5px 10px;
-  line-height: 1.4em;
-  color: #444;
-  overflow: auto;
-  -webkit-box-shadow: rgba(0,0,0,0.07) 0 1px 2px inset;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003101}}
-pre code {
-  padding: 0;
-  font-size: 12px;
-  background-color: #eee;
-  border: none;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003107}}
-code {
-  font-size: 12px;
-  background-color: #f8f8ff;
-  color: #444;
-  padding: 0 0.2em;
-  border: 1px solid #dedede;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003114}}
-img {
-  border: 0;
-  max-width: 100%;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003118}}
-abbr {
-  border-bottom: none;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003121}}
-a code,
-a:link code,
-a:visited code {
-  color: #4183c4;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003124}}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  border: 0;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003127}}
-h1 {
-  font-size: 170%;
-  border-top: 4px solid #aaa;
-  padding-top: 0.5em;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003133}}
-h1:first-child {
-  margin-top: 0;
-  padding-top: 0.25em;
-  border-top: none;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003139}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003140}}
-.entry h2 {
-  margin-top: 40px;
-  font-size: 110%;
-  border-bottom: 2px solid #e0e0e0;
-  padding-bottom: 0.5em;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003146}}
-.entry h2:nth-child(1) {
-  margin-top: 10px;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003148}}
-.entry h2 + h3 {
-  margin-top: 0.5em;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003150}}
-.entry h3 {
-  margin-top: 1em;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003152}}
-.entry p {
-  margin: 1em 0;
-  line-height: 1.5em;
-  text-align: justify;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/base\.styl}line{font-family:\00003157}}
-blockquote {
-  margin: 1em 0;
-  border-left: 5px solid #ddd;
-  padding-left: 0.6em;
-  color: #555;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/layout\.styl}line{font-family:\000031}}
-@media screen and (device-width: 320px) {
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/layout\.styl}line{font-family:\000032}}
-  header {
-    padding-top: 10px;
-  }
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/layout\.styl}line{font-family:\000034}}
-  header a {
-    display: block;
-    padding-bottom: 10px;
-  }
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/layout\.styl}line{font-family:\000038}}
-  .layout {
-    width: auto;
-    padding: 0 0.5em;
-  }
-}
-@media screen and (device-width: 320px) and (orientation:landscape) {
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/layout\.styl}line{font-family:\0000315}}
-  body {
-    font-size: 40%;
-  }
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/archive\.styl}line{font-family:\0000317}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/archive\.styl}line{font-family:\000031}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/archive\.styl}line{font-family:\000032}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/archive\.styl}line{font-family:\000033}}
-body.archive .sec > .title {
-  font-size: 140%;
-  margin-bottom: 10px;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/post\.styl}line{font-family:\000036}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/post\.styl}line{font-family:\000031}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/post\.styl}line{font-family:\000032}}
-.entry ul,
-.entry ol {
-  margin: 1em 0 1em 2em;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/post\.styl}line{font-family:\000035}}
-.entry ul li,
-.entry ol li {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/post\.styl}line{font-family:\000039}}
-.entry ul ul,
-.entry ul ol,
-.entry ol ol,
-.entry ol ul {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000312}}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\000031}}
-.highlight {
-  background: #fff;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\000033}}
-.highlight .c {
-  color: #998;
-  font-style: italic;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\000036}}
-.highlight .err {
-  color: #a61717;
-  background-color: #e3d2d2;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\000039}}
-.highlight .k {
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000311}}
-.highlight .o {
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000313}}
-.highlight .cm {
-  color: #998;
-  font-style: italic;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000316}}
-.highlight .cp {
-  color: #999;
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000319}}
-.highlight .c1 {
-  color: #998;
-  font-style: italic;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000322}}
-.highlight .cs {
-  color: #999;
-  font-weight: bold;
-  font-style: italic;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000326}}
-.highlight .gd {
-  color: #000;
-  background-color: #fdd;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000329}}
-.highlight .gd .x {
-  color: #000;
-  background-color: #faa;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000332}}
-.highlight .ge {
-  font-style: italic;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000334}}
-.highlight .gr {
-  color: #a00;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000336}}
-.highlight .gh {
-  color: #999;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000338}}
-.highlight .gi {
-  color: #000;
-  background-color: #dfd;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000341}}
-.highlight .gi .x {
-  color: #000;
-  background-color: #afa;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000344}}
-.highlight .go {
-  color: #888;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000346}}
-.highlight .gp {
-  color: #555;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000348}}
-.highlight .gs {
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000350}}
-.highlight .gu {
-  color: #aaa;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000352}}
-.highlight .gt {
-  color: #a00;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000354}}
-.highlight .kc {
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000356}}
-.highlight .kd {
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000358}}
-.highlight .kp {
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000360}}
-.highlight .kr {
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000362}}
-.highlight .kt {
-  color: #458;
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000365}}
-.highlight .m {
-  color: #099;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000367}}
-.highlight .s {
-  color: #d14;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000369}}
-.highlight .na {
-  color: #008080;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000371}}
-.highlight .nb {
-  color: #0086b3;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000373}}
-.highlight .nc {
-  color: #458;
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000376}}
-.highlight .no {
-  color: #008080;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000378}}
-.highlight .ni {
-  color: #800080;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000380}}
-.highlight .ne {
-  color: #900;
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000383}}
-.highlight .nf {
-  color: #900;
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000386}}
-.highlight .nn {
-  color: #555;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000388}}
-.highlight .nt {
-  color: #000080;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000390}}
-.highlight .nv {
-  color: #008080;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000392}}
-.highlight .ow {
-  font-weight: bold;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000394}}
-.highlight .w {
-  color: #bbb;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000396}}
-.highlight .mf {
-  color: #099;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\0000398}}
-.highlight .mh {
-  color: #099;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003100}}
-.highlight .mi {
-  color: #099;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003102}}
-.highlight .mo {
-  color: #099;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003104}}
-.highlight .sb {
-  color: #d14;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003106}}
-.highlight .sc {
-  color: #d14;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003108}}
-.highlight .sd {
-  color: #d14;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003110}}
-.highlight .s2 {
-  color: #d14;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003112}}
-.highlight .se {
-  color: #d14;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003114}}
-.highlight .sh {
-  color: #d14;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003116}}
-.highlight .si {
-  color: #d14;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003118}}
-.highlight .sx {
-  color: #d14;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003120}}
-.highlight .sr {
-  color: #009926;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003122}}
-.highlight .s1 {
-  color: #d14;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003124}}
-.highlight .ss {
-  color: #990073;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003126}}
-.highlight .bp {
-  color: #999;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003128}}
-.highlight .vc {
-  color: #008080;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003130}}
-.highlight .vg {
-  color: #008080;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003132}}
-.highlight .vi {
-  color: #008080;
-}
-
-@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/afei\/git\/clovery\.github\.com\/assets\/stylus\/partial\/syntax\.styl}line{font-family:\00003134}}
-.highlight .il {
-  color: #099;
-}
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+a{background:transparent;font-size:100%;margin:0;padding:0;vertical-align:baseline}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{border:0;border-top:1px solid #ccc;display:block;height:1px;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+body.home ul,body.archive ul,body.home ol,body.archive ol,body.home dl,body.archive dl{list-style:none}
+@font-face{font-family:'Belleza';font-style:normal;font-weight:400;src:url("font/kccRZmnnm8BZQBlMJUI5mwLUuEpTyoUstqEm5AMlJo4.woff") format('woff')}
+body{font:13px/1.6 'Belleza','\u9ED1\u4F53',tahoma,helvetica,arial,sans-serif;padding:.7em;color:#000;background-color:#f3f2ee;text-shadow:1px 0 0 #fff;line-height:1.4em}
+a{color:#a0a;text-decoration:none}
+.title{color:#a00}
+.layout{width:680px;margin:0 auto}
+footer{padding:40px 0 30px}
+section .sec{margin-top:20px}
+header + section.layout{margin-top:20px}
+.site-title{font-weight:bold;padding:20px 0 10px;border-bottom:1px dotted #d0d0d0;}
+.site-title a{color:#a00;font-size:170%;text-decoration:none;letter-spacing:-2px;font-family:'\u9ED1\u4F53';}
+.site-title a:hover{color:#740000}
+.list > .title{font-variant:small-caps;font-size:150%;font-weight:normal;margin-bottom:10px}
+.list .item{line-height:2;font-size:114%;}
+.list .item > .time{font-family:'Belleza','\u9ED1\u4F53',tahoma,arial;color:#970000;font-size:90%}
+.list .delimiter{margin:0 4px;color:#af0404}
+article header > .title{font-size:130%}
+input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif}
+select,option{padding:0 .25em}
+optgroup{margin-top:.5em}
+pre,code{font-family:consolas,Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace}
+pre{margin:1em 0;font-size:14px;background-color:#eee;border:1px solid #ddd;padding:5px 5px 5px 10px;line-height:1.4em;color:#444;overflow:auto;-webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+pre code{padding:0;font-size:12px;background-color:#eee;border:none}
+code{font-size:12px;background-color:#f8f8ff;color:#444;padding:0 .2em;border:1px solid #dedede}
+img{border:0;max-width:100%}
+abbr{border-bottom:none}
+a code,a:link code,a:visited code{color:#4183c4}
+h1,h2,h3,h4,h5,h6{border:0}
+h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;margin-bottom:1.5em;}
+h1:first-child{margin-top:0;padding-top:.25em;border-top:none}
+.entry h2{margin-top:40px;font-size:110%;border-bottom:2px solid #e0e0e0;padding-bottom:.5em;}
+.entry h2:nth-child(1){margin-top:10px}
+.entry h2 + h3{margin-top:.5em}
+.entry h3{margin-top:1em}
+.entry p{margin:1em 0;line-height:1.5em;text-align:justify}
+blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555}
+@media screen and (device-width: 320px){header{padding-top:10px;}
+header a{display:block;padding-bottom:10px}
+.layout{width:auto;padding:0 .5em}
+}@media screen and (device-width: 320px) and (orientation:landscape){body{font-size:40%}
+}body.archive .sec > .title{font-size:140%;margin-bottom:10px}
+.entry ul,.entry ol{margin:1em 0 1em 2em}
+.entry ul li,.entry ol li{margin-top:.5em;margin-bottom:.5em}
+.entry ul ul,.entry ul ol,.entry ol ol,.entry ol ul{margin-top:0;margin-bottom:0}
+.highlight{background:#fff;}
+.highlight .c{color:#998;font-style:italic}
+.highlight .err{color:#a61717;background-color:#e3d2d2}
+.highlight .k{font-weight:bold}
+.highlight .o{font-weight:bold}
+.highlight .cm{color:#998;font-style:italic}
+.highlight .cp{color:#999;font-weight:bold}
+.highlight .c1{color:#998;font-style:italic}
+.highlight .cs{color:#999;font-weight:bold;font-style:italic}
+.highlight .gd{color:#000;background-color:#fdd;}
+.highlight .gd .x{color:#000;background-color:#faa}
+.highlight .ge{font-style:italic}
+.highlight .gr{color:#a00}
+.highlight .gh{color:#999}
+.highlight .gi{color:#000;background-color:#dfd;}
+.highlight .gi .x{color:#000;background-color:#afa}
+.highlight .go{color:#888}
+.highlight .gp{color:#555}
+.highlight .gs{font-weight:bold}
+.highlight .gu{color:#aaa}
+.highlight .gt{color:#a00}
+.highlight .kc{font-weight:bold}
+.highlight .kd{font-weight:bold}
+.highlight .kp{font-weight:bold}
+.highlight .kr{font-weight:bold}
+.highlight .kt{color:#458;font-weight:bold}
+.highlight .m{color:#099}
+.highlight .s{color:#d14}
+.highlight .na{color:#008080}
+.highlight .nb{color:#0086b3}
+.highlight .nc{color:#458;font-weight:bold}
+.highlight .no{color:#008080}
+.highlight .ni{color:#800080}
+.highlight .ne{color:#900;font-weight:bold}
+.highlight .nf{color:#900;font-weight:bold}
+.highlight .nn{color:#555}
+.highlight .nt{color:#000080}
+.highlight .nv{color:#008080}
+.highlight .ow{font-weight:bold}
+.highlight .w{color:#bbb}
+.highlight .mf{color:#099}
+.highlight .mh{color:#099}
+.highlight .mi{color:#099}
+.highlight .mo{color:#099}
+.highlight .sb{color:#d14}
+.highlight .sc{color:#d14}
+.highlight .sd{color:#d14}
+.highlight .s2{color:#d14}
+.highlight .se{color:#d14}
+.highlight .sh{color:#d14}
+.highlight .si{color:#d14}
+.highlight .sx{color:#d14}
+.highlight .sr{color:#009926}
+.highlight .s1{color:#d14}
+.highlight .ss{color:#990073}
+.highlight .bp{color:#999}
+.highlight .vc{color:#008080}
+.highlight .vg{color:#008080}
+.highlight .vi{color:#008080}
+.highlight .il{color:#099}
