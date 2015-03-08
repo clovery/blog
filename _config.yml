@@ -1,4 +1,5 @@
-markdown: rdiscount
-pygments: true
 baseurl: /
 title : 旅行日誌
+
+markdown: kramdown
+highlighter: true
