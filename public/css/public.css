@@ -355,7 +355,7 @@ tbody tr:nth-child(odd) th {
 }
 
 article {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
 }
 
 .list-post-date {
