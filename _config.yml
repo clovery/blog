@@ -70,6 +70,6 @@ theme: next
 deploy:
   type: git
   repository: git@github.com:clovery/clovery.github.com.git
-  branch: develop
+  branch: master
 
 avatar: https://avatars3.githubusercontent.com/u/455717?v=3&s=460
