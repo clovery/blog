@@ -11,12 +11,11 @@ title: angular 初始化
 ### 自动初始化
 
 引入 angular.js 文件，angular 会扫描 html 中拥有 ng-app 属性的首个标签，作为 angular 的根元素初始化应用。
-	
-	
-	<html ng-app>
-	...
-	</html>
-	<script src="angular.js"></script>
+
+    <html ng-app>
+    ...
+    </html>
+    <script src="angular.js"></script>
 
 ### 手动初始化
 
@@ -40,3 +39,4 @@ title: angular 初始化
 ## 参考资源
 
 * https://docs.angularjs.org/guide/bootstrap
+

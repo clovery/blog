@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 关于产品和团队
 ---
 

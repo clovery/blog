@@ -1,5 +1,4 @@
 ---
-layout  : post 
 title   : 我所理解的前端开发
 ---
 
