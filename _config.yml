@@ -1,0 +1,28 @@
+name : 旅行日誌
+
+permalink:  /:year/:month/:day/:title.html
+
+# Markdown
+markdown: rdiscount
+
+# Navigation
+# nav:
+#   - name:           "About"
+#     href:           "//gfjaru.github.io/Kiko/about"
+#   - name:           "Download"
+#     href:           "//github.com/gfjaru/Kiko/releases"
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
