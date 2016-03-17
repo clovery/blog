@@ -57,34 +57,22 @@
 
 
 
-<meta name="description" content="Node.js模块选择
-express
-node-mongodb-native or mongoose
-
-Express处理前端请求，配合MongoDB数据库，足以满足项目的需求。mongoose相对官方提供的node库，api设计得更加友好些。前期使用了官方提供的库，切换到mongoose虽然没有花费太多精力。值得思考的是如何封装各种驱动库，提供统一接口，减少数据库切换带来的代价。
-基本功能
-注">
+<meta name="description" content="想像这样一种境况：中小型项目，静态页面有30张左右。页面有相同的头尾，也有可通用的组件。在复用组件的时候，使用拷贝、粘贴。然后，当这个组件变更的时候，要替换所有使用了该组件的页面。
+然后，有一天，接到需求，整个项目的页面头部需要替换部分文字提示，页尾统一加上版权信息，这一个列表项都加上链接或都去掉链接。
+如果这些工作全部要手动去完成。假想下一个项目有百张页面，那岂不是要疯掉。陷入拷贝粘贴的困境中。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="使用 Node.js 开发博客的一些思考">
-<meta property="og:url" content="http://clovery.org/2016/03/17/2013/12/2013-12-20-some-thoughts-about-using-node.js-develop-blog/index.html">
+<meta property="og:title" content="我为什么要使用 jade">
+<meta property="og:url" content="http://clovery.org/2016/03/17/2013/12/2013-12-28-why-i-use-jade.html">
 <meta property="og:site_name" content="旅行日誌">
-<meta property="og:description" content="Node.js模块选择
-express
-node-mongodb-native or mongoose
-
-Express处理前端请求，配合MongoDB数据库，足以满足项目的需求。mongoose相对官方提供的node库，api设计得更加友好些。前期使用了官方提供的库，切换到mongoose虽然没有花费太多精力。值得思考的是如何封装各种驱动库，提供统一接口，减少数据库切换带来的代价。
-基本功能
-注">
-<meta property="og:updated_time" content="2016-03-17T07:59:22.000Z">
+<meta property="og:description" content="想像这样一种境况：中小型项目，静态页面有30张左右。页面有相同的头尾，也有可通用的组件。在复用组件的时候，使用拷贝、粘贴。然后，当这个组件变更的时候，要替换所有使用了该组件的页面。
+然后，有一天，接到需求，整个项目的页面头部需要替换部分文字提示，页尾统一加上版权信息，这一个列表项都加上链接或都去掉链接。
+如果这些工作全部要手动去完成。假想下一个项目有百张页面，那岂不是要疯掉。陷入拷贝粘贴的困境中。">
+<meta property="og:updated_time" content="2016-03-17T07:58:23.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="使用 Node.js 开发博客的一些思考">
-<meta name="twitter:description" content="Node.js模块选择
-express
-node-mongodb-native or mongoose
-
-Express处理前端请求，配合MongoDB数据库，足以满足项目的需求。mongoose相对官方提供的node库，api设计得更加友好些。前期使用了官方提供的库，切换到mongoose虽然没有花费太多精力。值得思考的是如何封装各种驱动库，提供统一接口，减少数据库切换带来的代价。
-基本功能
-注">
+<meta name="twitter:title" content="我为什么要使用 jade">
+<meta name="twitter:description" content="想像这样一种境况：中小型项目，静态页面有30张左右。页面有相同的头尾，也有可通用的组件。在复用组件的时候，使用拷贝、粘贴。然后，当这个组件变更的时候，要替换所有使用了该组件的页面。
+然后，有一天，接到需求，整个项目的页面头部需要替换部分文字提示，页尾统一加上版权信息，这一个列表项都加上链接或都去掉链接。
+如果这些工作全部要手动去完成。假想下一个项目有百张页面，那岂不是要疯掉。陷入拷贝粘贴的困境中。">
 
 
 
@@ -102,7 +90,7 @@ Express处理前端请求，配合MongoDB数据库，足以满足项目的需求
   };
 </script>
 
-  <title> 使用 Node.js 开发博客的一些思考 | 旅行日誌 </title>
+  <title> 我为什么要使用 jade | 旅行日誌 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -222,7 +210,7 @@ Express处理前端请求，配合MongoDB数据库，足以满足项目的需求
             
             
               
-                使用 Node.js 开发博客的一些思考
+                我为什么要使用 jade
               
             
           </h1>
@@ -261,33 +249,31 @@ Express处理前端请求，配合MongoDB数据库，足以满足项目的需求
       
 
       
-        <h2 id="Node-js模块选择"><a href="#Node-js模块选择" class="headerlink" title="Node.js模块选择"></a>Node.js模块选择</h2><ul>
-<li><a href="https://github.com/visionmedia/express" target="_blank" rel="external">express</a></li>
-<li><a href="https://github.com/mongodb/node-mongodb-native" target="_blank" rel="external">node-mongodb-native</a> or <a href="https://github.com/learnboost/mongoose" target="_blank" rel="external">mongoose</a></li>
+        <h2 id="想像这样一种境况："><a href="#想像这样一种境况：" class="headerlink" title="想像这样一种境况："></a>想像这样一种境况：</h2><p>中小型项目，静态页面有30张左右。页面有相同的头尾，也有可通用的组件。在复用组件的时候，使用拷贝、粘贴。然后，当这个组件变更的时候，要替换所有使用了该组件的页面。</p>
+<p>然后，有一天，接到需求，整个项目的页面头部需要替换部分文字提示，页尾统一加上版权信息，这一个列表项都加上链接或都去掉链接。</p>
+<p>如果这些工作全部要手动去完成。假想下一个项目有百张页面，那岂不是要疯掉。陷入拷贝粘贴的困境中。所幸，我们有一些技术可以选择。</p>
+<h2 id="Apache-提供模块的-SSI"><a href="#Apache-提供模块的-SSI" class="headerlink" title="Apache 提供模块的 SSI"></a>Apache 提供模块的 SSI</h2><p>SSI 全称 (Server Side Include)，你可以从<a href="http://httpd.apache.org/docs/current/howto/ssi.html" target="_blank" rel="external">这里</a>获取更多的资料。</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&amp;lt;!--#include file="layouts/header.html"--&amp;gt;</span><br><span class="line">...</span><br><span class="line">&amp;lt;!--#include file="layouts/footer.html"--&amp;gt;</span><br></pre></td></tr></table></figure>
+<p>像这样，把公共部分提取出去，只要修改一处就可。太复杂的语法没有用过。在一定程度上能解决些复用的问题。</p>
+<p>这样做所带来的问题是，如何将这些生成最终的 html 代码！apache 只是给了你一种动态的效果，不能帮助你保存生成后的 html 代码。有 node 之后，做这些事情变不再复杂。当然，别的语言也可以达到同样的效果。当然你要熟悉改语言。</p>
+<h2 id="为什么选择-jade"><a href="#为什么选择-jade" class="headerlink" title="为什么选择 jade"></a>为什么选择 jade</h2><p>jade 改变了 html 书写的方式。jade 代码简洁、优美，生成的 html 代码亦然。我相信你的职业生涯中肯定会遇到一些缩进风格迥异的同事，甚至不缩进的 html 代码，而 jade 生成的 html 代码，肯定会更令你愉悦些。至少你不用关心标签是否闭合了。</p>
+<p>jade 能帮我解决一些问题，而这些问题正是在页面开发中不断遇到的重复的事情</p>
+<ul>
+<li>模版重用 (extend、block)</li>
+<li>模块重用 (include)</li>
+<li>对象迭代 (each)</li>
+<li>函数功能 (mixin)</li>
 </ul>
-<p>Express处理前端请求，配合MongoDB数据库，足以满足项目的需求。mongoose相对官方提供的node库，api设计得更加友好些。前期使用了官方提供的库，切换到mongoose虽然没有花费太多精力。值得思考的是如何封装各种驱动库，提供统一接口，减少数据库切换带来的代价。</p>
-<h2 id="基本功能"><a href="#基本功能" class="headerlink" title="基本功能"></a>基本功能</h2><ul>
-<li>注册</li>
-<li>登录</li>
-<li>文章</li>
-<li>留言</li>
-<li>上传</li>
-</ul>
-<h2 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h2><ul>
-<li>验证码</li>
-<li>注册数据保护</li>
-<li>数据模型接口</li>
-</ul>
-<h2 id="用户注册"><a href="#用户注册" class="headerlink" title="用户注册"></a>用户注册</h2><p>数据结构，mongoose提供的方案</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  login     : <span class="built_in">String</span>,</span><br><span class="line">  password  : <span class="built_in">String</span>,</span><br><span class="line">  email     : <span class="built_in">String</span>,</span><br><span class="line">  nickname  : &#123; type: <span class="built_in">String</span>, <span class="keyword">default</span>: <span class="string">''</span> &#125;,</span><br><span class="line">  created   : &#123; type: <span class="built_in">Date</span>, <span class="keyword">default</span>: <span class="built_in">Date</span>.now &#125;,</span><br><span class="line">  status    : &#123; type: <span class="built_in">String</span>, <span class="keyword">default</span>: <span class="string">''</span> &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>用户名和邮箱验证的问题</p>
-<ol>
-<li>不同的用户名，相同的邮箱</li>
-<li>用户名和邮箱组合唯一</li>
+<p>关于 jade 的友好性来说，各人有不同的看法。如果你喜欢 python，也可能喜欢 jade。强制缩进没什么不好，习惯而已，混用 tab 和 space 导致的问题，不是 jade 的问题。你都这么随意了，为什么不能受到语言的报复呢？！</p>
+<h2 id="jade-to-html"><a href="#jade-to-html" class="headerlink" title="jade to html"></a>jade to html</h2><p>jade 代码只是一种中间形式，不会提供给后端程序，他们肯定也不乐意接受。当然你的后端是 node 开发那就再好不过了:) </p>
+<p>这时候，应该考虑如何将 jade 转成 html 代码。jade 本身提供了命令行工具，感兴趣可自行去官网学习。在日常工作中，我个人最常用的是 Grunt 来 build jade， 生成 html 代码。或者，你可以使用 <a href="http://yeoman.io/" target="_blank" rel="external">yeoman</a> 来构建你自己的开发环境，乃至项目组的工作环境。</p>
+<p>本文只是介绍个人使用 jade 的理由，具体示例可以从官网取得。</p>
+<h2 id="参考资源"><a href="#参考资源" class="headerlink" title="参考资源"></a>参考资源</h2><ol>
+<li><a href="jade-lang.com">jade-lang.com</a></li>
+<li><a href="http://willerce.com/post/the-views-of-jade" target="_blank" rel="external">对 Jade 的一些看法</a></li>
+<li><a href="http://www.zhihu.com/question/20355486" target="_blank" rel="external">如何选择 EJS 和 Jade？</a></li>
 </ol>
-<p>采用方案2，用户名和邮箱组合，如果用户忘记先前注册，也起到提示作用，同时也避免无意义的申请。</p>
-<p>防止恶意注册，可加入验证码功能。</p>
-<h2 id="to-be-continued…"><a href="#to-be-continued…" class="headerlink" title="to be continued…"></a>to be continued…</h2>
+
       
     </div>
 
@@ -304,15 +290,15 @@ Express处理前端请求，配合MongoDB数据库，足以满足项目的需求
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/03/17/2013/12/2013-12-28-why-i-use-jade/" rel="next" title="我为什么要使用 jade">
-                <i class="fa fa-chevron-left"></i> 我为什么要使用 jade
+              <a href="/2016/03/17/2014/11/2014-11-25-some-point-about-avatar-crop-and-upload.html" rel="next" title="关于头像裁切上传的相关知识">
+                <i class="fa fa-chevron-left"></i> 关于头像裁切上传的相关知识
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/03/17/2013/12/2013-12-26-learning-vim/" rel="prev" title="学习 VI 编辑器">
+              <a href="/2016/03/17/2013/12/2013-12-26-learning-vim.html" rel="prev" title="学习 VI 编辑器">
                 学习 VI 编辑器 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -419,7 +405,7 @@ Express处理前端请求，配合MongoDB数据库，足以满足项目的需求
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Node-js模块选择"><span class="nav-number">1.</span> <span class="nav-text">Node.js模块选择</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基本功能"><span class="nav-number">2.</span> <span class="nav-text">基本功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#组件"><span class="nav-number">3.</span> <span class="nav-text">组件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#用户注册"><span class="nav-number">4.</span> <span class="nav-text">用户注册</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#to-be-continued…"><span class="nav-number">5.</span> <span class="nav-text">to be continued…</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#想像这样一种境况："><span class="nav-number">1.</span> <span class="nav-text">想像这样一种境况：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Apache-提供模块的-SSI"><span class="nav-number">2.</span> <span class="nav-text">Apache 提供模块的 SSI</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么选择-jade"><span class="nav-number">3.</span> <span class="nav-text">为什么选择 jade</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#jade-to-html"><span class="nav-number">4.</span> <span class="nav-text">jade to html</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#参考资源"><span class="nav-number">5.</span> <span class="nav-text">参考资源</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">

@@ -57,28 +57,34 @@
 
 
 
-<meta name="description" content="vim 常用的有两种模式：Normal 和 Insert ，打开文件，默认进入的是 Normal 模式
-键盘组合命令何其多，使用多时，还是停留在 h, j, k, l 的程度，翻出旧文，发现好多命令如同初见。记下，勉励之
-移动光标上下移动j           向下移动，一行，光标不会发生左右移动
-+ or enter  向下移动，光标会移动到下一行的行首
-k           向上移动，一行，">
+<meta name="description" content="Node.js模块选择
+express
+node-mongodb-native or mongoose
+
+Express处理前端请求，配合MongoDB数据库，足以满足项目的需求。mongoose相对官方提供的node库，api设计得更加友好些。前期使用了官方提供的库，切换到mongoose虽然没有花费太多精力。值得思考的是如何封装各种驱动库，提供统一接口，减少数据库切换带来的代价。
+基本功能
+注">
 <meta property="og:type" content="article">
-<meta property="og:title" content="学习 VI 编辑器">
-<meta property="og:url" content="http://clovery.org/2016/03/17/2013/12/2013-12-26-learning-vim/index.html">
+<meta property="og:title" content="使用 Node.js 开发博客的一些思考">
+<meta property="og:url" content="http://clovery.org/2016/03/17/2013/12/2013-12-20-some-thoughts-about-using-node.js-develop-blog.html">
 <meta property="og:site_name" content="旅行日誌">
-<meta property="og:description" content="vim 常用的有两种模式：Normal 和 Insert ，打开文件，默认进入的是 Normal 模式
-键盘组合命令何其多，使用多时，还是停留在 h, j, k, l 的程度，翻出旧文，发现好多命令如同初见。记下，勉励之
-移动光标上下移动j           向下移动，一行，光标不会发生左右移动
-+ or enter  向下移动，光标会移动到下一行的行首
-k           向上移动，一行，">
-<meta property="og:updated_time" content="2016-03-17T07:56:14.000Z">
+<meta property="og:description" content="Node.js模块选择
+express
+node-mongodb-native or mongoose
+
+Express处理前端请求，配合MongoDB数据库，足以满足项目的需求。mongoose相对官方提供的node库，api设计得更加友好些。前期使用了官方提供的库，切换到mongoose虽然没有花费太多精力。值得思考的是如何封装各种驱动库，提供统一接口，减少数据库切换带来的代价。
+基本功能
+注">
+<meta property="og:updated_time" content="2016-03-17T07:59:22.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="学习 VI 编辑器">
-<meta name="twitter:description" content="vim 常用的有两种模式：Normal 和 Insert ，打开文件，默认进入的是 Normal 模式
-键盘组合命令何其多，使用多时，还是停留在 h, j, k, l 的程度，翻出旧文，发现好多命令如同初见。记下，勉励之
-移动光标上下移动j           向下移动，一行，光标不会发生左右移动
-+ or enter  向下移动，光标会移动到下一行的行首
-k           向上移动，一行，">
+<meta name="twitter:title" content="使用 Node.js 开发博客的一些思考">
+<meta name="twitter:description" content="Node.js模块选择
+express
+node-mongodb-native or mongoose
+
+Express处理前端请求，配合MongoDB数据库，足以满足项目的需求。mongoose相对官方提供的node库，api设计得更加友好些。前期使用了官方提供的库，切换到mongoose虽然没有花费太多精力。值得思考的是如何封装各种驱动库，提供统一接口，减少数据库切换带来的代价。
+基本功能
+注">
 
 
 
@@ -96,7 +102,7 @@ k           向上移动，一行，">
   };
 </script>
 
-  <title> 学习 VI 编辑器 | 旅行日誌 </title>
+  <title> 使用 Node.js 开发博客的一些思考 | 旅行日誌 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -216,7 +222,7 @@ k           向上移动，一行，">
             
             
               
-                学习 VI 编辑器
+                使用 Node.js 开发博客的一些思考
               
             
           </h1>
@@ -255,89 +261,33 @@ k           向上移动，一行，">
       
 
       
-        <p>vim 常用的有两种模式：Normal 和 Insert ，打开文件，默认进入的是 Normal 模式</p>
-<p>键盘组合命令何其多，使用多时，还是停留在 h, j, k, l 的程度，翻出旧文，发现好多命令如同初见。记下，勉励之</p>
-<h2 id="移动光标"><a href="#移动光标" class="headerlink" title="移动光标"></a>移动光标</h2><h3 id="上下移动"><a href="#上下移动" class="headerlink" title="上下移动"></a>上下移动</h3><pre><code>j           向下移动，一行，光标不会发生左右移动
-+ or enter  向下移动，光标会移动到下一行的行首
-k           向上移动，一行，光标不会发生左右移动
--           向上移动，光标会移动到上一行的行首
-H           移动光标到当前屏幕的第一行
-L           移动光标到当前屏幕的最后一行
-M           移动光标到当前屏幕的中间行
-nH          移动光标到当前屏幕的第一行的后n行
-nL          移动光标到当前屏幕的最后一行的前n行
-gg          移动到当前文档的第一行
-G           移动到当前文档的最后一行
-nG          移动到当前文档的第n行
-h, j, k, l  前面可以跟阿拉伯数字，用以移动多行或多个字符
-(           移动到当前句子的开始
-)           移动到下一句的开始
-{           移动到当前段落的开始
-}           移动到下一个段落的开始
-</code></pre><h3 id="左右移动"><a href="#左右移动" class="headerlink" title="左右移动"></a>左右移动</h3><pre><code>h           向左移动 
-l           向右移动
-0           数字0 移动光标所在行的行首
-^           移动光标到当前行的第一个非空字符上
-n|          移动光标到当前行的第n列
-$           移动光标所在行的行尾
-b           向后移动，一次移动一个英文单词或英文符号，
-B           向后移动，一次移动一个英文单词，跳过英文符号
-e
-w           向前移动，一次移动一个英文单词或英文符号
-E
-W           向前移动，一次移动一个英文单词，跳过英文符号
-e, E        光标落在单词最后一个字符上
-b, B, w, W  光标落在单词第一个字符上
-</code></pre><h2 id="进入插入模式"><a href="#进入插入模式" class="headerlink" title="进入插入模式"></a>进入插入模式</h2><pre><code>i           光标所在字符的前面插入 (insert)
-a           光标所在字符的后面插入 (append)
-o           小写的 o 激活光标所在行的下一行
-O           大写的 o 激活光标所在行的前一行
-</code></pre><h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><pre><code>s           删除光标所在位置的后一个字符，并进入插入模式
-S, cc       删除整行,进入插入模式
-dd          删除一行
-2dd         删除两行
-x           删除光标所在位置之后的字符
-X           删除光标所在位置之前的字符
-dw          删除光标所在位置的到下一个空格之间的字符包括该空格 
-            如果想保留空格使用 dE            
-cw          删除光标所在位置的后一个单词，并且激活插入模式
-cb          删除光标所在位置的前一个单词，并且激活插入模式
-              如果是中文，则会删除到标点符号前的所有单词。
-c0          删除从光标到该行的开始
-c$          删除从光标到该行的结束
-D           删除光标所在位置到该行的行尾
-c$, C       删除光标所在位置到该行的行尾，进入插入模式
-</code></pre><h2 id="替换操作"><a href="#替换操作" class="headerlink" title="替换操作"></a>替换操作</h2><pre><code>r           替换单个字符
-R           进入替换模式，输入的字符会替换原有的字符，除非按ESC退出
-</code></pre><h2 id="拷贝和粘帖"><a href="#拷贝和粘帖" class="headerlink" title="拷贝和粘帖"></a>拷贝和粘帖</h2><pre><code>yy          拷贝一行，在命令模式下输入p，粘帖拷贝的文本
-            Y效果等同于yy
-yw          拷贝光标所在位置到下一个空格之间的字符
-y0          拷贝光标所在位置到行首之间的字符
-y$          拷贝光标所在位置到行尾之间的字符
-p           会将缓冲区的文本插入到光标所在位置的下一行中，
-            如果缓冲区为空，则插入空行
-P           插入文本到光标所在位置的前一行，单独一行
-</code></pre><h2 id="撤销操作"><a href="#撤销操作" class="headerlink" title="撤销操作"></a>撤销操作</h2><pre><code>u           撤销以前的操作
-ctrl + r    恢复撤销   
-</code></pre><h2 id="翻屏"><a href="#翻屏" class="headerlink" title="翻屏"></a>翻屏</h2><pre><code>ctrl + F    scroll forward one screen
-            向下移动一屏           
-ctrl + B    scroll backward one screen
-            回退一屏
-ctrl + D    scroll forward half screen down
-            向下移动半屏
-ctrl + U    scroll backward half screen up
-            回退半屏
-z + Enter   Move current line to top of screen and scroll
-            移动当前行到屏幕的最顶端
-z.          Move current line to center of screen and scroll
-            移动当前行到屏幕的中央         
-z-          Move current line to bottom of screen and scroll
-            移动当前行到屏幕的最底部
-[line]z     z前面可以跟数字，移动光标到指定的行号
-</code></pre><h2 id="其它"><a href="#其它" class="headerlink" title="其它"></a>其它</h2><pre><code>ctrl + ~    大写字符转换为小写，小写字符转换为大写
-ctrl + l    重绘、刷新当前屏幕
-.           重复上一次所执行的操作
-</code></pre>
+        <h2 id="Node-js模块选择"><a href="#Node-js模块选择" class="headerlink" title="Node.js模块选择"></a>Node.js模块选择</h2><ul>
+<li><a href="https://github.com/visionmedia/express" target="_blank" rel="external">express</a></li>
+<li><a href="https://github.com/mongodb/node-mongodb-native" target="_blank" rel="external">node-mongodb-native</a> or <a href="https://github.com/learnboost/mongoose" target="_blank" rel="external">mongoose</a></li>
+</ul>
+<p>Express处理前端请求，配合MongoDB数据库，足以满足项目的需求。mongoose相对官方提供的node库，api设计得更加友好些。前期使用了官方提供的库，切换到mongoose虽然没有花费太多精力。值得思考的是如何封装各种驱动库，提供统一接口，减少数据库切换带来的代价。</p>
+<h2 id="基本功能"><a href="#基本功能" class="headerlink" title="基本功能"></a>基本功能</h2><ul>
+<li>注册</li>
+<li>登录</li>
+<li>文章</li>
+<li>留言</li>
+<li>上传</li>
+</ul>
+<h2 id="组件"><a href="#组件" class="headerlink" title="组件"></a>组件</h2><ul>
+<li>验证码</li>
+<li>注册数据保护</li>
+<li>数据模型接口</li>
+</ul>
+<h2 id="用户注册"><a href="#用户注册" class="headerlink" title="用户注册"></a>用户注册</h2><p>数据结构，mongoose提供的方案</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  login     : <span class="built_in">String</span>,</span><br><span class="line">  password  : <span class="built_in">String</span>,</span><br><span class="line">  email     : <span class="built_in">String</span>,</span><br><span class="line">  nickname  : &#123; type: <span class="built_in">String</span>, <span class="keyword">default</span>: <span class="string">''</span> &#125;,</span><br><span class="line">  created   : &#123; type: <span class="built_in">Date</span>, <span class="keyword">default</span>: <span class="built_in">Date</span>.now &#125;,</span><br><span class="line">  status    : &#123; type: <span class="built_in">String</span>, <span class="keyword">default</span>: <span class="string">''</span> &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>用户名和邮箱验证的问题</p>
+<ol>
+<li>不同的用户名，相同的邮箱</li>
+<li>用户名和邮箱组合唯一</li>
+</ol>
+<p>采用方案2，用户名和邮箱组合，如果用户忘记先前注册，也起到提示作用，同时也避免无意义的申请。</p>
+<p>防止恶意注册，可加入验证码功能。</p>
+<h2 id="to-be-continued…"><a href="#to-be-continued…" class="headerlink" title="to be continued…"></a>to be continued…</h2>
       
     </div>
 
@@ -354,15 +304,15 @@ ctrl + l    重绘、刷新当前屏幕
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/03/17/2013/12/2013-12-20-some-thoughts-about-using-node.js-develop-blog/" rel="next" title="使用 Node.js 开发博客的一些思考">
-                <i class="fa fa-chevron-left"></i> 使用 Node.js 开发博客的一些思考
+              <a href="/2016/03/17/2014/01/2014-01-01-about-connect-and-express-note.html" rel="next" title="关于 connect 和 express 的学习笔记">
+                <i class="fa fa-chevron-left"></i> 关于 connect 和 express 的学习笔记
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/03/17/2013/11/2013-11-24-the-front-end-development-as-i-understand/" rel="prev" title="我所理解的前端开发">
+              <a href="/2016/03/17/2013/11/2013-11-24-the-front-end-development-as-i-understand.html" rel="prev" title="我所理解的前端开发">
                 我所理解的前端开发 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -469,7 +419,7 @@ ctrl + l    重绘、刷新当前屏幕
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#移动光标"><span class="nav-number">1.</span> <span class="nav-text">移动光标</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#上下移动"><span class="nav-number">1.1.</span> <span class="nav-text">上下移动</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#左右移动"><span class="nav-number">1.2.</span> <span class="nav-text">左右移动</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#进入插入模式"><span class="nav-number">2.</span> <span class="nav-text">进入插入模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除"><span class="nav-number">3.</span> <span class="nav-text">删除</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#替换操作"><span class="nav-number">4.</span> <span class="nav-text">替换操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#拷贝和粘帖"><span class="nav-number">5.</span> <span class="nav-text">拷贝和粘帖</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#撤销操作"><span class="nav-number">6.</span> <span class="nav-text">撤销操作</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#翻屏"><span class="nav-number">7.</span> <span class="nav-text">翻屏</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其它"><span class="nav-number">8.</span> <span class="nav-text">其它</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Node-js模块选择"><span class="nav-number">1.</span> <span class="nav-text">Node.js模块选择</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#基本功能"><span class="nav-number">2.</span> <span class="nav-text">基本功能</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#组件"><span class="nav-number">3.</span> <span class="nav-text">组件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#用户注册"><span class="nav-number">4.</span> <span class="nav-text">用户注册</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#to-be-continued…"><span class="nav-number">5.</span> <span class="nav-text">to be continued…</span></a></li></ol></div>
             
           </div>
           <div class="post-toc-indicator-bottom post-toc-indicator">
