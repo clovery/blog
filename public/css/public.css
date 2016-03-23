@@ -35,7 +35,7 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 a {
@@ -260,14 +260,14 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 38rem;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1rem;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (min-width: 38rem) {
   .container {
-    padding: 2rem 1rem;
+    padding: 2rem 0.5rem;
   }
 }
 
