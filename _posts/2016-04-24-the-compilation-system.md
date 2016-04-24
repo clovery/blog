@@ -41,8 +41,6 @@ $ gcc -S hello.i -o hello.s
 
 ~~~shell
 $ as hello.s -o hello.o
-or
-$ gcc 
 ~~~
 
 ## 4. 链接阶段 (Linking phase)
