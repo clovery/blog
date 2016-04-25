@@ -11,7 +11,7 @@ body {
 }
 
 @font-face {
-  font-family:'Belleza';
+  font-family: 'Belleza';
   font-style: normal;
   font-weight: 400;
   src: url("font/kccRZmnnm8BZQBlMJUI5mwLUuEpTyoUstqEm5AMlJo4.woff") format('woff');
@@ -59,6 +59,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
 }
 
 h3 {
@@ -697,6 +701,9 @@ article {
 /* Literal.Number.Integer.Long */
 
 .post h2 {
+  font-size: 16px;
+}
+.post h3 {
   font-size: 14px;
 }
 .post .post-date {
