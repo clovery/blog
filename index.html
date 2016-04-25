@@ -11,36 +11,36 @@ layout: default
     {% endfor %}
   </nav>
 </header>
-<div class="content list">
-{% if site.posts.size == 0 %}
-  <h2>No post found</h2>
-{% else %}
-{% for post in site.posts %}
-  <article class="list-item">
-    <h2 class="list-post-title">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    <div class="list-post-date">
-      <small>
-        <time>{{ post.date | date_to_string }}</time>
-      </small>
-    </div>
-  </article>
-{% endfor %}
-{% endif %}
-<!--
+<section class="content">
+  {% if site.posts.size == 0 %}
+    <h2>No post found</h2>
+  {% else %}
+  <div class="article-list">
+  {% for post in paginator.posts %}
+    <article class="article">
+      <h2 class="title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <div class="list-post-date">
+        <small>
+          <time>{{ post.date | date_to_string }}</time>
+        </small>
+      </div>
+    </article>
+  {% endfor %}
+  </div>
   <div class="pagination">
     {% if paginator.previous_page %}
       <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
     {% else %}
-      <span class="previous">Previous</span>
+      <span class="previous">Prev</span>
     {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="page_number ">{{ paginator.page }} / {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
       <a href="{{ paginator.next_page_path }}" class="next">Next</a>
     {% else %}
       <span class="next ">Next</span>
     {% endif %}
   </div>
--->
-</div>
+  {% endif %}
+</section>

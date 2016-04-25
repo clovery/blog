@@ -341,16 +341,16 @@ tbody tr:nth-child(odd) th {
   text-transform: uppercase;
 }
 
-.list-post-title {
+.article .title {
   margin-bottom: .25rem;
 }
 
-.list-post-title a {
+.article .title a {
   color: #333;
 }
 
-.list-post-title a:hover,
-.list-post-title a:focus {
+.article .title a:hover,
+.article .title a:focus {
   text-decoration: none;
 }
 

@@ -10,8 +10,8 @@ timezone: Asia/Shanghai
 encoding: utf-8
 
 gems: [jekyll-paginate]
-paginate: 8
-paginate_path: "/page:num/"
+paginate: 10
+paginate_path: "/page/:num/"
 
 # Scopes
 defaults:
