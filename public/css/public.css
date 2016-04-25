@@ -58,11 +58,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.4rem;
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 h4, h5, h6 {
@@ -338,11 +342,12 @@ tbody tr:nth-child(odd) th {
 .post-date {
   margin-bottom: 2rem;
   font-size: .75rem;
-  text-transform: uppercase;
 }
 
 .article .title {
   margin-bottom: .25rem;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 .article .title a {
@@ -356,10 +361,6 @@ tbody tr:nth-child(odd) th {
 
 article {
   margin-bottom: 0.8rem;
-}
-
-.list-post-date {
-  font-size: .75rem;
 }
 
 .projects-list a {

@@ -1,5 +1,6 @@
 ---
 title: My Mac Tools
+layout: default
 ---
 
 ## 硬件
