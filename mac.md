@@ -1,5 +1,5 @@
 ---
-title: My Mac Tools
+title: Mac
 layout: default
 ---
 

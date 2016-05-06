@@ -6,9 +6,19 @@ layout: default
     <a href="{{ site.baseurl }}/">{{ site.name }}</a>
   </h1>
   <nav class="masthead-nav">
-    {% for nav in site.nav %}
-    <a href="{{ nav.href }}">{{ nav.name }}</a>
-    {% endfor %}
+    <!--
+    <ul>
+      {% for nav in site.pages %}
+        {% if nav.title and nav.url != '/404' %}
+        <li>
+          <a {% if nav.url == page.url %}class="active"{% endif %} href="{{ nav.url }}">
+            {{ nav.title }}
+          </a>
+        </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    -->
   </nav>
 </header>
 <section class="content">
