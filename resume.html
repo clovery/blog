@@ -3,14 +3,15 @@
 <head>
 <meta charset="utf-8">
 <title>魏兴飞的简历</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/
 <meta name="robots" content="noindex, nofollow">
 <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,600">
 <link rel="stylesheet" href="//clovery.org/public/css/public.css">
 <style>
 ul, ol, dl, dt, dd { list-style:none; margin: auto 0; padding: auto 0; }
 .layout {
-  width:70%;
   margin:0 auto;
+  max-width: 760px;
 }
 body {
   font-size:14px;
@@ -24,7 +25,12 @@ section p {
   margin-bottom: 0.25rem;
 }
 section h2 { font-size: 1.4rem; margin-bottom:.5em;padding-bottom:.2em;border-bottom:2px solid #e9e9e9}
-.personal-info .label{display:inline-block;width:80px}
+.personal-info .label { display:inline-block;width:80px; }
+.personal-info .label:after {
+  content: ':';
+  float: right;
+  margin-right: 8px;
+}
 .personal-info .delimiter{margin-right:6px;color:#708090;font-size:10px;-webkit-transform:scale(.5)}
 .personal-info em{font-style:normal}
 .position em{font-style:normal}
@@ -50,19 +56,40 @@ body {
         <ul>
           <li>
             <span class="label">姓名</span>
-            <span class="delimiter">:</span>
+            
             <em>魏兴飞</em>
           </li>
-          <li><span class="label">性别</span><span class="delimiter">:</span><em>男</em></li>
-          <li><span class="label">学历</span><span class="delimiter">:</span><em>专科</em></li>
-          <li><span class="label">所在地</span><span class="delimiter">:</span><em>浙江杭州</em></li>
-          <li><span class="label">出生日期</span><span class="delimiter">:</span><em>1988-10-16</em></li>
-          <li><span class="label">手机号</span><span class="delimiter">:</span>
+          <li>
+            <span class="label">性别</span>
+            <em>男</em>
+          </li>
+          <li>
+            <span class="label">学历</span>
+            <em>专科</em>
+          </li>
+          <li>
+            <span class="label">所在地</span>
+            <em>浙江杭州</em>
+          </li>
+          <li>
+            <span class="label">出生日期</span>
+            <em>1988-10-16</em>
+          </li>
+          <li>
+            <span class="label">手机号</span>
             <em class="number">18069784578</em>
           </li>
-          <li><span class="label">邮箱</span><span class="delimiter">:</span><em><a href="mailto:clovery.org@gmail.com">clovery.org@gmail.com</a></em></li>
-          <li><span class="label">博客</span><span class="delimiter">:</span><em><a href='http://clovery.org' target='_blank'>http://clovery.org/</a></em></li>
-          <li><span class="label">Github</span><span class="delimiter">:</span><em><a href='https://github.com/clovery/' target='_blank'>https://github.com/clovery/</a></em></li>
+          <li>
+            <span class="label">邮箱</span><em>
+            <a href="mailto:clovery.org@gmail.com">clovery.org@gmail.com</a></em></li>
+          <li>
+            <span class="label">博客</span><em>
+              <a href='http://clovery.org' target='_blank'>http://clovery.org/</a></em>
+            </li>
+          <li>
+            <span class="label">Github</span>
+            <em><a href='https://github.com/clovery/' target='_blank'>https://github.com/clovery/</a></em>
+          </li>
         </ul>
       </div>
     </section>
@@ -135,7 +162,7 @@ body {
           <div class="intro">
             <ol>
               <li>带领四人的小组负责公司
-                <a hrer="http://www.imiaoj.com/">庙街</a>
+                <a href="http://www.imiaoj.com/">庙街</a>
                 的移动端开发工作
               </li>
               <li>参与公司基于 Vue 的组件开发</li>
