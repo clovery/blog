@@ -278,6 +278,9 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   font-weight: 300;
 }
+.site-header {
+  margin-bottom: 2rem;
+}
 
 .masthead-title a {
   color: #333;
@@ -293,7 +296,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .masthead-title--small {
-  margin-bottom: .75rem;
+  margin-bottom: 2rem;
   font-size: .75rem;
   font-weight: 600;
   text-transform: uppercase;

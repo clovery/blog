@@ -1,25 +1,10 @@
 ---
 layout: default
 ---
-<header class="masthead">
+<header class="site-header masthead">
   <h1 class="masthead-title">
     <a href="{{ site.baseurl }}/">{{ site.name }}</a>
   </h1>
-  <nav class="masthead-nav">
-    <!--
-    <ul>
-      {% for nav in site.pages %}
-        {% if nav.title and nav.url != '/404' %}
-        <li>
-          <a {% if nav.url == page.url %}class="active"{% endif %} href="{{ nav.url }}">
-            {{ nav.title }}
-          </a>
-        </li>
-        {% endif %}
-      {% endfor %}
-    </ul>
-    -->
-  </nav>
 </header>
 <section class="content">
   {% if site.posts.size == 0 %}
