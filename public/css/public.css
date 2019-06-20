@@ -274,11 +274,6 @@ tbody tr:nth-child(odd) th {
   font-size: 1.25rem;
 }
 
-.container {
-  width: 840px;
-  margin: 0 auto;
-}
-
 .masthead-title {
   font-weight: 300;
 }
