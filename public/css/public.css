@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
 @font-face {
   font-family: 'Belleza';
   font-style: normal;
@@ -17,8 +11,25 @@ body {
   src: url("font/kccRZmnnm8BZQBlMJUI5mwLUuEpTyoUstqEm5AMlJo4.woff") format('woff');
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column
+}
+
 html {
-  font-family: 'Belleza','\u9ED1\u4F53', "Source Sans Pro", "Helvetica Neue", Tahoma, Helvetica, Arial, sans-serif;
+  font-family: 'Belleza', '\u9ED1\u4F53', "Source Sans Pro", "Helvetica Neue", Tahoma, Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 1.6;
@@ -48,7 +59,12 @@ a:focus {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: .5rem;
   font-weight: 600;
@@ -69,7 +85,9 @@ h3 {
   font-size: 1rem;
 }
 
-h4, h5, h6 {
+h4,
+h5,
+h6 {
   font-size: 1rem;
 }
 
@@ -77,7 +95,9 @@ p {
   margin: 0 0 0.6rem;
 }
 
-ul, ol, dl {
+ul,
+ol,
+dl {
   margin-top: 0;
   margin-bottom: 0.6rem;
 }
@@ -120,15 +140,15 @@ ol ol {
   margin-bottom: .5rem;
 }
 
-p + h1,
-p + h2,
-p + h3,
-ul + h1,
-ul + h2,
-ul + h3,
-ol + h1,
-ol + h2,
-ol + h3 {
+p+h1,
+p+h2,
+p+h3,
+ul+h1,
+ul+h2,
+ul+h3,
+ol+h1,
+ol+h2,
+ol+h3 {
   margin-top: 1.5rem;
 }
 
@@ -263,36 +283,44 @@ tbody tr:nth-child(odd) th {
 }
 
 .container {
-  width: 760px;
+  width: 840px;
   margin: 0 auto;
 }
 
 .masthead-title {
   font-weight: 300;
 }
+
 .site-header {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   position: sticky;
-  padding: 1rem 0;
+  position: -webkit-sticky;
+  padding: 0.8rem 0;
   top: 0;
-  background-color: #fff;
+  background: #fff;
   border-bottom: 1px solid #f5f5f5;
+  z-index: 2;
 }
+
 .site-header .container {
   display: flex;
 }
+
 .masthead-nav {
   margin: 0 0 0 auto;
   display: flex;
   align-items: center;
 }
+
 .masthead-nav ul {
   margin-bottom: 0;
 }
+
 .masthead-nav li {
   display: inline-block;
   margin-left: 1rem;
 }
+
 .masthead-title {
   margin-bottom: 0;
 }
@@ -327,12 +355,9 @@ tbody tr:nth-child(odd) th {
 }
 
 .site-header .masthead-nav a {
-  color: #aaa;
+  color: #333;
   font-weight: 300;
   text-transform: lowercase;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  transition: all 0.2s ease;
 }
 
 .site-header .masthead-nav a:hover,
@@ -341,16 +366,18 @@ tbody tr:nth-child(odd) th {
   text-decoration: none;
 }
 
-.site-header .masthead-nav a + a {
+.site-header .masthead-nav a+a {
   margin-left: .25rem;
+}
+
+body>footer {
+  margin-top: 2rem;
+  border-top: 1px solid #f5f5f5;
+  padding: 1.5rem 0;
 }
 
 .page-title {
   margin-bottom: 2rem;
-}
-
-.post-title {
-  margin-bottom: .25rem;
 }
 
 .post-date {
@@ -374,7 +401,7 @@ tbody tr:nth-child(odd) th {
 }
 
 article {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1rem;
 }
 
 .projects-list a {
@@ -714,15 +741,26 @@ article {
 .post h2 {
   font-size: 16px;
 }
+
 .post h3 {
   font-size: 14px;
 }
+
 .post .post-date {
   margin-bottom: 1rem;
 }
+
 .post-title {
+  margin-bottom: .25rem;
   font-size: 22px;
+  font-weight: normal;
 }
+
 .post p {
   margin-bottom: 0.6rem;
+}
+
+.site-content {
+  flex: 1;
+  position: relative;
 }
