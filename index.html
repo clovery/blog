@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <section class="content">
   {% if site.posts.size == 0 %}
     <h2>No post found</h2>
@@ -13,7 +14,7 @@ layout: default
       </h2>
       <div class="list-post-date">
         <small>
-          <time>{{ post.date | date_to_string }}</time>
+          <time>{{ post.date | date: "%Y-%m-%d" }}</time>
         </small>
       </div>
     </article>

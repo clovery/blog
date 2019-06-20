@@ -326,7 +326,7 @@ tbody tr:nth-child(odd) th {
   text-decoration: none;
 }
 
-.masthead .masthead-nav a {
+.site-header .masthead-nav a {
   color: #aaa;
   font-weight: 300;
   text-transform: lowercase;
@@ -335,13 +335,13 @@ tbody tr:nth-child(odd) th {
   transition: all 0.2s ease;
 }
 
-.masthead .masthead-nav a:hover,
-.masthead .masthead-nav a:focus {
+.site-header .masthead-nav a:hover,
+.site-header .masthead-nav a:focus {
   color: #333;
   text-decoration: none;
 }
 
-.masthead .masthead-nav a + a {
+.site-header .masthead-nav a + a {
   margin-left: .25rem;
 }
 
