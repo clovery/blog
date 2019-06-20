@@ -11,6 +11,10 @@
   src: url("font/kccRZmnnm8BZQBlMJUI5mwLUuEpTyoUstqEm5AMlJo4.woff") format('woff');
 }
 
+.container {
+  max-width: 720px;
+}
+
 html,
 body {
   margin: 0;
