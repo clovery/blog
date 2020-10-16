@@ -1,5 +1,11 @@
 # vscode
 
+## 启动流程
+
+1. Platform
+2. Workbench
+
+
 ## UI Interface
 
 [官方文档](https://code.visualstudio.com/docs/getstarted/userinterface)
