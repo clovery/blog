@@ -1,4 +1,4 @@
-# vscode
+# Visual Studio Code 学习笔记
 
 基于 1.57.0 版本。
 
