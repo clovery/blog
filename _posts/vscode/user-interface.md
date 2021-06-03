@@ -1,3 +1,3 @@
 ## titlebar
 
-`titlebar` 位于 `vs/workbench/parts/titlebar`
+`titlebar` 位于 `vs/workbench/browser/parts/titlebar`

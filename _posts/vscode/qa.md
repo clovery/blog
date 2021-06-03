@@ -11,3 +11,7 @@
 ## Parts
 
 在文件 `/vs/workbench/services/layout/browser/layoutService.ts` 定义了枚举类型的 `Parts`。
+
+## 更改默认主题配置
+
+`vs/workbench/common/theme.ts`
