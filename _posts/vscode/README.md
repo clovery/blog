@@ -7,12 +7,12 @@
 1. Platform
 2. Workbench
 
-
 ## UI Interface
 
 [官方文档](https://code.visualstudio.com/docs/getstarted/userinterface)
 
-## 
+##
+
 ```
 layoutService
 ```
@@ -23,11 +23,12 @@ layoutService
 
 `Part` 类位于 `vs/workbench/part.ts` 文件，其 `create` 方法，负责绘制 `UI` 部分。
 
-
-
 ## StatusbarPart
 
 位于 `vs/workbench/browser/parts/statusbar/statusbarPart.ts` 文件，继承自 `Part`。
 
-
 `vs/workbench/browser/parts/activitybarPart.ts` 界面最左侧的部分，宽度固定 48。
+
+## 参考资料
+
+- [How to Contribute](https://github.com/microsoft/vscode/wiki/How-to-Contribute)
