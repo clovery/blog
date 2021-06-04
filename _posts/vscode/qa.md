@@ -15,3 +15,6 @@
 ## 更改默认主题配置
 
 `vs/workbench/common/theme.ts`
+
+## 🤔
+- viewport 尺寸改变，parts 如何重新计算布局？
