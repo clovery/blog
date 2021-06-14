@@ -12,7 +12,19 @@
 
 接着转到 `vs/platform/keybinding/common/abstractKeybindingService.ts`，调用 `_doDispatch(keybinding: ResolvedKeybinding, target: IContextKeyServiceTarget, isSingleModiferChord = false)` 方法，解析获取注册的快捷键，调用其提供的 `handler`。
 
+```ts
+// vs/workbench/services/keybinding/browser/keybindingService.ts
+_dispatch()
 
+// vs/platform/keybinding/common/abstractKeybindingService.ts
+_doDispatch() => commandService.executeCommand()
+
+// vs/workbench/services/commands/common/commandService.ts
+executeCommand(id: string, ...args: any[])
+_tryExecuteCommand(id: string, args: any[])
+  const command = CommandsRegistry.getCommand(id)
+  this._instantiationService.invokeFunction(command.handler, ...args)
+```
 
 ## 快捷键
 
