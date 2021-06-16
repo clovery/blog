@@ -1,5 +1,21 @@
 # 启动流程
 
+## 启动
+
+Mac
+
+```sh
+yarn watch
+./scripts/code.sh
+```
+
+Web 端
+
+```sh
+yarn watch-web
+yarn web
+```
+
 ## 客户端
 
 ```ts
