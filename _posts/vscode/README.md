@@ -2,10 +2,7 @@
 
 基于 1.57.0 版本。
 
-## 启动流程
-
-1. Platform
-2. Workbench
+1. [启动流程](./launch.md)
 
 ## UI Interface
 
