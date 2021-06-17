@@ -17,4 +17,9 @@
 `vs/workbench/common/theme.ts`
 
 ## 🤔
+
 - viewport 尺寸改变，parts 如何重新计算布局？
+
+点击 activitybarPart 的某项，sidebarPart 切换到对应的视图，二者如何关联的
+
+CompositeActionViewItem 创建 composite bar 的成员。
