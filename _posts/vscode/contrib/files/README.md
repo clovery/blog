@@ -1,5 +1,15 @@
 # Explorer
 
+导入
+
+```ts
+// vs/workbench/workbench.common.main.ts
+// Explorer
+import 'vs/workbench/contrib/files/browser/explorerViewlet';
+import 'vs/workbench/contrib/files/browser/fileActions.contribution';
+import 'vs/workbench/contrib/files/browser/files.contribution';
+```
+
 ## 目录结构
 
 ```txt
