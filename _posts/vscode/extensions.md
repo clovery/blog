@@ -21,6 +21,6 @@ installFromZipPath(...)
 
 ## 调用扩展
 
+## 动态设置 vscode 对象
 
-
-
+src/vs/workbench/api/common/extHost.api.impl.ts
