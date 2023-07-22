@@ -1,3 +1,9 @@
+---
+title: Platform 启动流程
+date: '2023-01-01'
+tags: ['Visual Studio Code']
+---
+
 ## Platform 启动流程
 
 `src/vs/code/electron-main/window.ts`)

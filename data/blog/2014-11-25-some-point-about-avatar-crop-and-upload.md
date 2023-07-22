@@ -17,13 +17,16 @@ tags: ['前端']
 
 `html` 结构
 
-    <form action="/avatar" method="post" enctype="multipart/form-data" class="reform-file-ctrl avatar">
-     <input type="file" name="avatar" class="file">
-     <span class="icon"></span>
-    </form>
+```html
+<form action="/avatar" method="post" enctype="multipart/form-data" class="reform-file-ctrl avatar">
+  <input type="file" name="avatar" class="file" />
+  <span class="icon"></span>
+</form>
+```
 
 `css` 代码
 
+```
     .reform-file-ctrl {
       width: 180px; height: 40px; overflow: hidden; position: relative;
     }
@@ -37,6 +40,7 @@ tags: ['前端']
       filter: alpha(opacity=0);
       z-index: 1;
     }
+```
 
 [查看效果](http://jsfiddle.net/clovery_org/ebcL04r0/)
 
@@ -50,15 +54,21 @@ tags: ['前端']
 
 `html` 结构
 
-    <form action="/avatar" method="post" enctype="multipart/form-data" target="avatar-iframe">
-     <input type="file">
-     <input type="submit">
-    </form>
-    <iframe name="avatar-iframe" src="about:blank" width="0" height="0"></iframe>
+```html
+<form action="/avatar" method="post" enctype="multipart/form-data" target="avatar-iframe">
+  <input type="file" />
+  <input type="submit" />
+</form>
+<iframe name="avatar-iframe" src="about:blank" width="0" height="0"></iframe>
+```
 
 `css` 代码
 
-    iframe { display: none; }
+```css
+iframe {
+  display: none;
+}
+```
 
 上面的代码，我们简单实现了无刷新上传的功能。
 

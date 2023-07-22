@@ -1,3 +1,9 @@
+---
+title: User Interface
+date: '2023-01-01'
+tags: ['Visual Studio Code']
+---
+
 # User Interface
 
 [官方文档](https://code.visualstudio.com/docs/getstarted/userinterface)

@@ -1,4 +1,10 @@
-# extensions
+---
+title: extensions
+date: '2023-01-01'
+tags: ['Visual Studio Code']
+---
+
+## extensions
 
 ```
 installVSIXAction.run(vsixPaths?: URI[]) -> this.extensionsWorkbenchService.install(vsix)

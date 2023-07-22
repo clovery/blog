@@ -1,4 +1,10 @@
-# keybinding
+---
+title: keybinding
+date: '2023-01-01'
+tags: ['Visual Studio Code']
+---
+
+## keybinding
 
 1. 监听键盘事件 [keybindingService](https://github.com/clovery/vscode/blob/main/src/vs/workbench/services/keybinding/browser/keybindingService.ts#L255)
 2. 注册快捷键 [KeybindingsRegistry](https://github.com/clovery/vscode/blob/main/src/vs/platform/keybinding/common/keybindingsRegistry.ts#L243)

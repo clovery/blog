@@ -1,3 +1,9 @@
+---
+title: QA
+date: '2023-01-01'
+tags: ['Visual Studio Code']
+---
+
 ## UI 组件 (Part) 是如何注册的
 
 类 `Part` 初始化时，调用 `layoutService.registerPart(this)` 实现。

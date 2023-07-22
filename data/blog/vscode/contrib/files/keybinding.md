@@ -1,3 +1,9 @@
+---
+title: 快捷键
+date: '2023-01-01'
+tags: ['Visual Studio Code']
+---
+
 # 快捷键
 
 文件: src/vs/workbench/contrib/files/browser/fileActions.contribution.ts
