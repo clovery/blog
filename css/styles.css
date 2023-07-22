@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Belleza';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./kccRZmnnm8BZQBlMJUI5mwLUuEpTyoUstqEm5AMlJo4.woff') format('woff');
+}
+
+body {
+  font-family: 'Belleza', '\u9ED1\u4F53', 'Source Sans Pro', 'Helvetica Neue', Tahoma, Helvetica,
+    Arial, sans-serif;
+}
