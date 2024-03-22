@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: '旅行日誌',
-  author: 'ArvinWei',
-  headerTitle: '旅行日誌',
+  title: 'Travel diary',
+  author: 'clovery',
+  headerTitle: 'Travel diary',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
